@@ -1,20 +1,33 @@
 'use strict';
 var express = require('express');
 var router = express.Router();
-
+const  os  = require('os');
 /* GET home page. */
 router.get('/app1/', function (req, res) {
-    if (!req.session.usuario) {
-        res.redirect('/app1/users');
+ 
+        req.session.appname = 'app1';
+        req.session.nodo = os.hostname();
 
-    } else {
 
-        res.render('index', { title: 'Express' });
+        res.render('index', { title: 'Express',req,res });
 
-    }
+  
+});
 
+router.post('/app1/', function (req, res) {
 
     
+    req.session.mimascota = req.body.mimascota
+
+
+    res.render('index', { title: 'Express', req,res });
+
+
+
+
+
 });
+
+
 
 module.exports = router;

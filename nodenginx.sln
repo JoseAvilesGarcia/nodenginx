@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "nodenginx", "nodenginx.njsproj", "{E984B3F4-BF0C-4500-B71D-61E8E5D31678}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "nodenginx2", "..\nodenginx2\nodenginx2.njsproj", "{0927B69B-EECB-4B2E-88C2-B52858FB5DDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E984B3F4-BF0C-4500-B71D-61E8E5D31678}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E984B3F4-BF0C-4500-B71D-61E8E5D31678}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E984B3F4-BF0C-4500-B71D-61E8E5D31678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0927B69B-EECB-4B2E-88C2-B52858FB5DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0927B69B-EECB-4B2E-88C2-B52858FB5DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0927B69B-EECB-4B2E-88C2-B52858FB5DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0927B69B-EECB-4B2E-88C2-B52858FB5DDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
